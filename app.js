@@ -1,10 +1,11 @@
 // Question # 1
 
-// function showDateTime(){
-//     var time = new Date();
-//     document.getElementById("date").innerText = time;
-// }
-// showDateTime();
+function showDateTime(){
+    var time = new Date(); 
+    document.getElementById("date").innerText = time;
+    return
+}
+document.write(showDateTime());
 
 // Question # 2
 
